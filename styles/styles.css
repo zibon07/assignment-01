@@ -159,3 +159,30 @@ nav {
     color: rgba(204, 204, 204, 1);
     margin-top: 0;
 }
+
+/* users feedback section style */
+
+.users-feedback{
+    max-width: 1140px;
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.feedback-container{
+    display: flex;
+    
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.feedback{
+
+    border: 1px solid blue;
+}
+.reviewer-info{
+display: flex;
+}
