@@ -52,7 +52,7 @@ nav {
     width: 174px;
     height: 48px;
     border: none;
-     font-size: 16px;
+    font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
 }
@@ -85,22 +85,77 @@ nav {
 
 .subtitle {
     font-weight: 24px;
-    color : rgba(37, 36, 50, 0.5);
+    color: rgba(37, 36, 50, 0.5);
 }
-.btn-preview{
+
+.btn-preview {
     width: 239px;
     font-size: 16px;
     font-weight: bold;
     border: none;
 }
-.left-side{
-    width:517px ;
+
+.left-side {
+    width: 517px;
     height: 203px;
 }
 
-.img-action{
+.img-action {
     width: 403px;
     height: 328px;
     border-radius: 48px;
 
+}
+
+
+/* users sections style */
+
+
+.users-section {
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 24px;
+    
+
+
+}
+
+.users-title {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 50px 0 0 0;
+}
+
+
+
+.data-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 0;
+
+}
+
+.users-title {
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 0;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+
+.data-description {
+    font-size: 20px;
+    color: rgba(204, 204, 204, 1);
+    margin-top: 0;
 }
