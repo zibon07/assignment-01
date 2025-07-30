@@ -69,6 +69,11 @@ nav {
     border-radius: 10px;
 }
 
+.btn:hover {
+    background-color: rgb(190, 62, 62);
+
+}
+
 .shared-margin {
     margin-left: 24px;
 }
@@ -247,7 +252,7 @@ nav {
     margin: 0 auto 93px;
     background-color: rgba(248, 248, 248, 1);
     border-radius: 40px;
-    padding:0 0 71px 0;
+    padding: 0 0 71px 0;
 }
 
 .focus-title {
@@ -317,7 +322,7 @@ nav {
     margin-top: 19px;
 }
 
-.get-in-touch-button{
+.get-in-touch-button {
     width: 100%;
     margin-top: 19px;
     border: none;
@@ -325,7 +330,7 @@ nav {
 
 /* footer styles */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -335,7 +340,7 @@ footer{
 
 }
 
-.footer-logo{
+.footer-logo {
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
@@ -343,21 +348,21 @@ footer{
 
 }
 
-.footer-description{
+.footer-description {
     font-size: 16px;
     font-weight: 400;
     color: rgba(137, 135, 161, 1);
     margin-top: 8px;
 }
 
-.links a{
+.links a {
     text-decoration: none;
-    color: #8987A1;   
+    color: #8987A1;
     font-size: 16px;
     font-weight: 400;
 }
 
-.links{
+.links {
     justify-content: center;
     display: flex;
     gap: 50px;
