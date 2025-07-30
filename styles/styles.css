@@ -237,3 +237,37 @@ nav {
     height: 40px;
     border-radius: 50%;
 }
+
+/* focus section styles */
+
+.focus-section {
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.focus-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.focus-btn {
+
+    margin: 20px 0 20px 0;
+    border: none;
+    width: 194px;
+}
+
+.wc-big {
+    border-radius: 48px;
+    max-width: 840px;
+}
